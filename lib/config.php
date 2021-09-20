@@ -21,7 +21,7 @@ if ( ! class_exists( 'WpssoSscConfig' ) ) {
 					'opt_version' => '1',		// Increment when changing default option values.
 					'short'       => 'WPSSO SSC',	// Short plugin name.
 					'name'        => 'WPSSO Schema Shortcode',
-					'desc'        => 'Schema shortcode.',
+					'desc'        => 'Schema shortcode for advanced users.',
 					'slug'        => 'wpsso-schema-shortcode',
 					'base'        => 'wpsso-schema-shortcode/wpsso-schema-shortcode.php',
 					'update_auth' => 'tid',
