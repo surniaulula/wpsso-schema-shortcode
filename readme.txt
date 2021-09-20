@@ -14,15 +14,19 @@ Tested Up To: 5.8.1
 WC Tested Up To: 5.6.0
 Stable Tag: 1.0.0
 
-Schema shortcode.
+A schema shortcode for advanced users.
 
 == Description ==
 
-Schema shortcode.
+<p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-schema-shortcode/assets/icon-256x256.png"> <p>The <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a> provides extensive support for hundreds of Schema types and can read data from dozens of supported third-party plugins and service APIs. The most popular Schema properties can be easily customized in the <em>Document SSO</em> metabox, and if required the <code>&#91;schema&#93;</code> shortcode can be used to define additional properties and types for sections of your content.</p>
+
+<p>Please note that the <code>&#91;schema&#93;</code> shortcode is meant for <strong>advanced users only</strong> and is not required for WPSSO Core to create complete and accurate Schema JSON-LD markup for your content. You should avoid using the <code>&#91;schema&#93;</code> shortcode unless you're very familiar with <a href="https://schema.org">https://schema.org</a> markup and have very specific non-standard requirements. If you use the <code>&#91;schema&#93;</code> shortcode, make sure you always validate any change with the <a href="https://validator.schema.org/">Schema Markup Validator</a> and the <a href="https://search.google.com/test/rich-results">Google Rich Results Test</a> tool.</p>
+
+<p><a href="https://wpsso.com/docs/plugins/wpsso-schema-shortcode-documentation/notes-and-documentation-for-wpsso-ssc/schema-shortcode/">You can view the complete Schema shortcode guide here</a>.</p>
 
 <h3>WPSSO Core Required</h3>
 
-WPSSO Schema JSON-LD Markup (WPSSO JSON) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/).
+WPSSO Schema Shortcode (WPSSO SSC) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/).
 
 == Installation ==
 
@@ -61,10 +65,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.0.0 (TBD)**
+**Version 1.0.0-dev.6 (2021/09/20)**
 
 * **New Features**
-	* None.
+	* Initial release.
 * **Improvements**
 	* None.
 * **Bugfixes**
@@ -78,7 +82,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.0.0 =
+= 1.0.0-dev.6 =
 
-(TBD) None.
+(2021/09/20) Initial release.
 

@@ -2,7 +2,7 @@
 
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Schema Shortcode</td></tr>
-<tr><th align="right" valign="top" nowrap>Summary</th><td>Schema shortcode.</td></tr>
+<tr><th align="right" valign="top" nowrap>Summary</th><td>A schema shortcode for advanced users.</td></tr>
 <tr><th align="right" valign="top" nowrap>Stable Version</th><td>1.0.0</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires PHP</th><td>7.0 or newer</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires WordPress</th><td>5.0 or newer</td></tr>
@@ -15,11 +15,19 @@
 
 <h2>Description</h2>
 
-<p>Schema shortcode.</p>
+<p>&lt;</p>
+
+<p>p><img class="readme-icon" src="https://surniaulula.github.io/wpsso-schema-shortcode/assets/icon-256x256.png"></p>
+
+<p>The <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a> provides extensive support for hundreds of Schema types and can read data from dozens of supported third-party plugins and service APIs. The most popular Schema properties can be easily customized in the <em>Document SSO</em> metabox, and if required the <code>&#91;schema&#93;</code> shortcode can be used to define additional properties and types for sections of your content.</p>
+
+<p>Please note that the <code>&#91;schema&#93;</code> shortcode is meant for <strong>advanced users only</strong> and is not required for WPSSO Core to create complete and accurate Schema JSON-LD markup for your content. You should avoid using the <code>&#91;schema&#93;</code> shortcode unless you're very familiar with <a href="https://schema.org">https://schema.org</a> markup and have very specific non-standard requirements. If you use the <code>&#91;schema&#93;</code> shortcode, make sure you always validate any change with the <a href="https://validator.schema.org/">Schema Markup Validator</a> and the <a href="https://search.google.com/test/rich-results">Google Rich Results Test</a> tool.</p>
+
+<p><a href="https://wpsso.com/docs/plugins/wpsso-schema-shortcode-documentation/notes-and-documentation-for-wpsso-ssc/schema-shortcode/">You can view the complete Schema shortcode guide here</a>.</p>
 
 <h3>WPSSO Core Required</h3>
 
-<p>WPSSO Schema JSON-LD Markup (WPSSO JSON) is an add-on for the <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a>.</p>
+<p>WPSSO Schema Shortcode (WPSSO SSC) is an add-on for the <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a>.</p>
 
 
 <h2>Installation</h2>
