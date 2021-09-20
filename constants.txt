@@ -1,0 +1,18 @@
+
+/**
+ * Hard-coded / fixed constants. These values cannot be modified.
+ */
+WPSSOSSC_FILEPATH
+WPSSOSSC_PLUGINBASE
+WPSSOSSC_PLUGINDIR
+WPSSOSSC_PLUGINSLUG
+WPSSOSSC_URLPATH
+WPSSOSSC_VERSION
+
+/**
+ * Define in your wp-config.php file to change the default value.
+ */
+WPSSOSSC_SCHEMA_SHORTCODE_NAME		= 'schema'
+WPSSOSSC_SCHEMA_SHORTCODE_SEPARATOR	= '_'
+WPSSOSSC_SCHEMA_SHORTCODE_DEPTH		= 3
+
