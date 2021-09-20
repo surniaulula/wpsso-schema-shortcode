@@ -2,7 +2,7 @@
 
 <table>
 <tr><th align="right" valign="top" nowrap>Plugin Name</th><td>WPSSO Schema Shortcode</td></tr>
-<tr><th align="right" valign="top" nowrap>Summary</th><td>A schema shortcode for advanced users.</td></tr>
+<tr><th align="right" valign="top" nowrap>Summary</th><td>Schema shortcode for advanced users.</td></tr>
 <tr><th align="right" valign="top" nowrap>Stable Version</th><td>1.0.0</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires PHP</th><td>7.0 or newer</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires WordPress</th><td>5.0 or newer</td></tr>
