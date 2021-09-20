@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Update Manager 4.6.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-um\n"
+"Project-Id-Version: WPSSO Schema Shortcode 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-schema-shortcode\n"
 "POT-Creation-Date: 2021-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-09-20 12:26-0700\n"
+"PO-Revision-Date: 2021-09-20 13:29-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -21,86 +21,6 @@ msgstr "L'ajout %1$s nécessite l'extension %2$s - veuillez activer l'extension 
 msgid "The %1$s add-on requires %2$s version %3$s or newer (version %4$s is currently installed)."
 msgstr "L'ajout %1$s nécessite %2$s version %3$s ou plus récente (la version %4$s est actuellement installée)."
 
-#: gettext/gettext-lib-com.php:6 gettext/gettext-lib-com.php:18
-#: lib/com/update.php:299 lib/com/update.php:1251
-msgid "An inconsistency was found in the %1$s update server information - "
-msgstr "Une incohérence a été trouvée dans l'information du serveur de mises à jour pour %1$s - "
-
-#: gettext/gettext-lib-com.php:7 gettext/gettext-lib-com.php:19
-#: lib/com/update.php:302 lib/com/update.php:1254
-msgid "Update checks for %1$s are disabled while this inconsistency persists."
-msgstr "Les vérifications de mises à jour pour %1$s sont désactivées tant que cette incohérence persiste."
-
-#: gettext/gettext-lib-com.php:8 gettext/gettext-lib-com.php:20
-#: lib/com/update.php:306 lib/com/update.php:1258
-msgid "You may <a href=\"%1$s\">open a new support ticket</a> if you believe this error message is incorrect."
-msgstr "Vous pouvez <a href=\"%1$s\">ouvrir un nouveau billet de soutien</a> si vous pensez que ce message d'erreur est incorrect."
-
-#: gettext/gettext-lib-com.php:9 lib/com/update.php:352
-msgid "invalid authentication URL (%1$s)."
-msgstr "URL d'authentification non valide (%1$s)."
-
-#: gettext/gettext-lib-com.php:10 lib/com/update.php:394
-msgctxt "metabox title"
-msgid "Update Version Filters"
-msgstr "Filtres de version pour mises à jour"
-
-#: gettext/gettext-lib-com.php:11 lib/com/update.php:398
-msgid "Please note that one or more non-stable / development %s have been selected."
-msgstr "Veuillez noter que l'un ou plusieurs %s non-stable / de développement ont été sélectionnés."
-
-#: gettext/gettext-lib-com.php:12 lib/com/update.php:650
-msgid "Update manager cache refresh ignored - it has been %s since the last refresh."
-msgstr "L'actualisation du cache du gestionnaire de mise à jour est ignorée - cela fait %s depuis la dernière actualisation."
-
-#: gettext/gettext-lib-com.php:13 lib/com/update.php:653
-msgid "Please wait %s before requesting another cache refresh."
-msgstr "Veuillez attendre %s avant de demander une autre actualisation du cache."
-
-#: gettext/gettext-lib-com.php:14 lib/com/update.php:723
-msgid "No plugins defined for updates."
-msgstr "Aucune extension définie pour les mises à jour."
-
-#: gettext/gettext-lib-com.php:15 lib/com/update.php:766
-msgid "Update information for %s has been retrieved and saved."
-msgstr "L'information de mises à jour pour %s a été récupérée et sauvegardée."
-
-#: gettext/gettext-lib-com.php:16 lib/com/update.php:782
-msgid "An error was returned while getting update information for %s."
-msgstr "Une erreur a été renvoyée lors de l'obtention des informations de mise à jour pour %s."
-
-#: gettext/gettext-lib-com.php:17 lib/com/update.php:798
-msgid "Failed saving retrieved update information for %s."
-msgstr "Erreur lors de l'enregistrement des informations de mises à jour pour %s."
-
-#: gettext/gettext-lib-com.php:21 lib/com/update.php:1268
-msgid "the update server URL (%1$s) does not appear to be a valid URL."
-msgstr "l'URL du serveur de mise à jour (%1$s) ne semble pas être une URL valide."
-
-#: gettext/gettext-lib-com.php:22 lib/com/update.php:1317
-msgid "the <a href=\"%1$s\">PHP %2$s function</a> did not return an IPv4 address."
-msgstr "la fonction <a href=\"%1$s\">PHP %2$s</a> n'a pas retourné une adresse IPv4."
-
-#: gettext/gettext-lib-com.php:23 lib/com/update.php:1320
-msgid "Please contact your hosting provider to have this PHP issue fixed."
-msgstr "SVP contacter votre hébergeur pour résoudre ce problème PHP."
-
-#: gettext/gettext-lib-com.php:24 lib/com/update.php:1324
-msgid "the IPv4 address (%1$s) from the local host does not match the DNS IPv4 address (%2$s)."
-msgstr "l'adresse IPv4 (%1$s) fournie par le serveur local ne correspond pas à l'adresse IPv4 du DNS (%2$s)."
-
-#: gettext/gettext-lib-com.php:25 lib/com/update.php:1419
-msgid "Update error from the WordPress %1$s function: %2$s"
-msgstr "Erreur de mises à jour de la fonction WordPress %1$s: %2$s"
-
-#: gettext/gettext-lib-com.php:26 lib/com/update.php:1474
-msgid "The WordPress %1$s function returned HTTP %2$d (%3$s) for %4$s."
-msgstr "La fonction WordPress %1$s a retourné HTTP %2$d (%3$s) pour %4$s."
-
-#: gettext/gettext-lib-com.php:27 lib/com/update.php:1596
-msgid "The %1$s plugin (%2$s) version number is missing from the WordPress plugins array."
-msgstr "Le numéro de version de l'extension %1$s (%2$s) est absente de la liste d'extensions de WordPress."
-
 #: gettext/gettext-lib-config.php:6
 msgctxt "plugin name"
 msgid "WPSSO Schema Shortcode"
@@ -111,72 +31,33 @@ msgctxt "plugin description"
 msgid "Shortcode for advanced Schema markup of content sections."
 msgstr "Code court pour un balisage de Schéma avancé des sections de contenu."
 
-#: gettext/gettext-lib-config.php:8 gettext/gettext-lib-config.php:9
-msgctxt "lib file description"
-msgid "Update Manager"
-msgstr "Mises à jour"
+#. translators: %1$s is the short plugin name, %2$s is the shortcode tag, %3$s is the type attribute value
+#: lib/shortcode/schema.php:189
+msgid "%1$s %2$s shortcode with a type value of \"%3$s\" is missing a required 'prop' attribute value."
+msgstr "Le code court %2$s de %1$s avec \"%3$s\" comme attribut type doit avoir une valeur pour l'attribut 'prop' aussi."
 
-#: gettext/gettext-lib-config.php:10
-msgctxt "plugin name"
-msgid "WPSSO Update Manager"
-msgstr "WPSSO gestionnaire de mise à jour"
+#. translators: %1$s is the short plugin name, %2$s is the shortcode tag
+#: lib/shortcode/schema.php:217
+msgid "%1$s %2$s shortcode with a content is missing a required 'type' attribute value."
+msgstr "Le code court %2$s de %1$s avec un texte de description doit avoir une valeur pour l'attribut 'type'."
 
-#: gettext/gettext-lib-config.php:11
-msgctxt "plugin description"
-msgid "Update Manager for the WPSSO Core Premium plugin and its Premium complementary add-ons."
-msgstr "Gestionnaire de mise à jour pour l'extension WPSSO Core Premium et ses ajouts complémentaires Premium."
-
-#: lib/actions.php:79
-msgid "Plugin update information has been refreshed."
-msgstr "Les informations de mise à jour d'extension ont été actualisées."
-
-#: lib/actions.php:91
-msgid "Plugin update offers have been reenabled."
-msgstr "Les offres de mise à jour des extensions ont été réactivées."
-
-#: lib/filters.php:221
-msgctxt "lib file description"
-msgid "(api) Update Check Schedule"
-msgstr "(api) Horaire de vérification pour mises à jour"
-
-#: lib/sitesubmenu/site-um-general.php:50
-#: lib/sitesubmenu/site-um-general.php:56 lib/submenu/um-general.php:50
-#: lib/submenu/um-general.php:56
-msgctxt "submit button"
-msgid "Check for Plugin Updates"
-msgstr "Vérifier pour mises à jour"
-
-#: lib/sitesubmenu/site-um-general.php:57 lib/submenu/um-general.php:57
-msgctxt "submit button"
-msgid "Re-Offer Plugin Updates"
-msgstr "Ré-offrir mises à jour d'extension"
-
-#: lib/sitesubmenu/site-um-general.php:83
-msgctxt "metabox title"
-msgid "Network Update Manager"
-msgstr "Gestion de mises à jour réseau"
-
-#: lib/sitesubmenu/site-um-general.php:107 lib/submenu/um-general.php:90
-msgctxt "metabox tab"
-msgid "Version Filters"
-msgstr "Filtres de version"
-
-#: lib/submenu/um-general.php:71
-msgctxt "metabox title"
-msgid "Update Manager Settings"
-msgstr "Réglages du gestionnaire de mise à jour"
+#. translators: %1$s is the short plugin name, %2$s is the shortcode tag, %3$s is the type attribute value
+#: lib/shortcode/schema.php:316
+msgid "%1$s %2$s shortcode type attribute \"%3$s\" is not a recognized value."
+msgstr "Le code court %2$s de %1$s avec \"%3$s\" pour l'attribut type n'est pas une valeur reconnue."
 
 #. Plugin Name of the plugin/theme
-msgid "WPSSO Update Manager"
-msgstr "WPSSO gestionnaire de mise à jour"
+msgid "WPSSO Schema Shortcode"
+msgstr "WPSSO code court de Schéma"
 
 #. Plugin URI of the plugin/theme
-msgid "https://wpsso.com/extend/plugins/wpsso-um/"
-msgstr "https://wpsso.com/extend/plugins/wpsso-um/"
+#| msgid "https://wpsso.com/extend/plugins/wpsso-um/"
+msgid "https://wpsso.com/extend/plugins/wpsso-schema-shortcode/"
+msgstr "https://wpsso.com/extend/plugins/wpsso-schema-shortcode/"
 
 #. Description of the plugin/theme
-msgid "Update Manager for the WPSSO Core Premium plugin and its Premium complementary add-ons."
-msgstr "Gestionnaire de mise à jour pour l'extension WPSSO Core Premium et ses ajouts complémentaires Premium."
+msgid "Shortcode for advanced Schema markup of content sections."
+msgstr "Code court pour un balisage de Schéma avancé des sections de contenu."
 
 #. Author of the plugin/theme
 msgid "JS Morisset"
