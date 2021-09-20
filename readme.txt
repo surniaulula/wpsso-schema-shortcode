@@ -14,7 +14,7 @@ Tested Up To: 5.8.1
 WC Tested Up To: 5.6.0
 Stable Tag: 1.0.0
 
-Schema shortcode for advanced users.
+Shortcode for advanced Schema markup of content sections.
 
 == Description ==
 
