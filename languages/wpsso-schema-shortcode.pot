@@ -32,7 +32,7 @@ msgstr ""
 
 #: gettext/gettext-lib-config.php:7
 msgctxt "plugin description"
-msgid "Schema shortcode for advanced users."
+msgid "Shortcode for advanced Schema markup of content sections."
 msgstr ""
 
 #. translators: %1$s is the short plugin name, %2$s is the shortcode tag, %3$s is the type attribute value
@@ -63,7 +63,7 @@ msgid "https://wpsso.com/extend/plugins/wpsso-schema-shortcode/"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "Schema shortcode for advanced users."
+msgid "Shortcode for advanced Schema markup of content sections."
 msgstr ""
 
 #. Author of the plugin/theme
