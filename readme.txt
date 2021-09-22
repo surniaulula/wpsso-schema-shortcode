@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 7.0
 Requires At Least: 5.0
 Tested Up To: 5.8.1
-WC Tested Up To: 5.6.0
+WC Tested Up To: 5.7.0
 Stable Tag: 1.0.0
 
 Shortcode for advanced Schema markup of content sections.
@@ -65,7 +65,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.0.0-b.1 (2021/09/21)**
+**Version 1.0.0-b.2 (2021/09/21)**
 
 * **New Features**
 	* Initial release.
@@ -78,11 +78,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v7.0.
 	* WordPress v5.0.
-	* WPSSO Core v9.0.0-b.1.
+	* WPSSO Core v9.0.0-b.2.
 
 == Upgrade Notice ==
 
-= 1.0.0-b.1 =
+= 1.0.0-b.2 =
 
 (2021/09/21) Initial release.
 
