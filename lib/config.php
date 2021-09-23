@@ -17,7 +17,7 @@ if ( ! class_exists( 'WpssoSscConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssossc' => array(			// Plugin acronym.
-					'version'     => '1.0.0-b.2',	// Plugin version.
+					'version'     => '1.0.0-rc.1',	// Plugin version.
 					'opt_version' => '1',		// Increment when changing default option values.
 					'short'       => 'WPSSO SSC',	// Short plugin name.
 					'name'        => 'WPSSO Schema Shortcode',
@@ -37,7 +37,7 @@ if ( ! class_exists( 'WpssoSscConfig' ) ) {
 							'home'          => 'https://wordpress.org/plugins/wpsso/',
 							'plugin_class'  => 'Wpsso',
 							'version_const' => 'WPSSO_VERSION',
-							'min_version'   => '9.0.0-b.2',
+							'min_version'   => '9.0.0-rc.1',
 						),
 					),
 
