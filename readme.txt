@@ -70,7 +70,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.1.0-rc.1 (2021/10/18)**
+**Version 1.1.0 (2021/10/18)**
 
 * **New Features**
 	* None.
@@ -102,7 +102,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.1.0-rc.1 =
+= 1.1.0 =
 
 (2021/10/18) Removed cache clearing on activation / deactivation.
 
