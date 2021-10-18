@@ -70,6 +70,21 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 1.1.0-dev.1 (2021/10/18)**
+
+* **New Features**
+	* Initial release.
+* **Improvements**
+	* None.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* Removed cache clearing on activation / deactivation.
+* **Requires At Least**
+	* PHP v7.0.
+	* WordPress v5.0.
+	* WPSSO Core v9.0.0.
+
 **Version 1.0.0 (2021/09/24)**
 
 * **New Features**
@@ -86,6 +101,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WPSSO Core v9.0.0.
 
 == Upgrade Notice ==
+
+= 1.1.0-dev.1 =
+
+(2021/10/18) Removed cache clearing on activation / deactivation.
 
 = 1.0.0 =
 
