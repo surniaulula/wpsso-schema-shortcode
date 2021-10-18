@@ -24,7 +24,7 @@ if ( ! class_exists( 'WpssoSscConfig' ) ) {
 					'desc'        => 'Shortcode for advanced Schema markup of content sections.',
 					'slug'        => 'wpsso-schema-shortcode',
 					'base'        => 'wpsso-schema-shortcode/wpsso-schema-shortcode.php',
-					'update_auth' => 'tid',
+					'update_auth' => '',		// No premium version.
 					'text_domain' => 'wpsso-schema-shortcode',
 					'domain_path' => '/languages',
 
