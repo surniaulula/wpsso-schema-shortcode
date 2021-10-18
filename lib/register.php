@@ -81,6 +81,7 @@ if ( ! class_exists( 'WpssoSscRegister' ) ) {
 				global $wpdb;
 
 				$db_query = 'SELECT blog_id FROM '.$wpdb->blogs;
+
 				$blog_ids = $wpdb->get_col( $db_query );
 
 				foreach ( $blog_ids as $blog_id ) {
@@ -93,6 +94,7 @@ if ( ! class_exists( 'WpssoSscRegister' ) ) {
 				restore_current_blog();
 
 			} else {
+
 				call_user_func_array( $method, array( $args ) );
 			}
 		}
@@ -110,22 +112,10 @@ if ( ! class_exists( 'WpssoSscRegister' ) ) {
 
 					WpssoUtilReg::update_ext_version( 'wpssossc', $version );
 				}
-
-				$wpsso =& Wpsso::get_instance();
-
-				$wpsso->util->cache->schedule_clear( $user_id = get_current_user_id() );
 			}
 		}
 
-		private function deactivate_plugin() {
-
-			if ( class_exists( 'Wpsso' ) ) {
-
-				$wpsso =& Wpsso::get_instance();
-
-				$wpsso->util->cache->schedule_clear( $user_id = get_current_user_id() );
-			}
-		}
+		private function deactivate_plugin() {}
 
 		private static function uninstall_plugin() {}
 	}
