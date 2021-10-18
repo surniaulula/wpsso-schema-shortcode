@@ -43,7 +43,7 @@ if ( ! class_exists( 'WpssoSsc' ) ) {
 
 		public $filters;	// WpssoSscFilters class object.
 
-		protected $p;	// Wpsso class object.
+		protected $p;		// Wpsso class object.
 
 		private static $instance = null;	// WpssoSsc class object.
 
