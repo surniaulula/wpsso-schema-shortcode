@@ -73,7 +73,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 **Version 1.1.0-dev.1 (2021/10/18)**
 
 * **New Features**
-	* Initial release.
+	* None.
 * **Improvements**
 	* None.
 * **Bugfixes**
