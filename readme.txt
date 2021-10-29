@@ -14,7 +14,7 @@ Tested Up To: 5.8.1
 WC Tested Up To: 5.8.0
 Stable Tag: 1.0.0
 
-Shortcode for advanced Schema markup of content sections.
+Shortcode for customized Schema markup of content sections.
 
 == Description ==
 
