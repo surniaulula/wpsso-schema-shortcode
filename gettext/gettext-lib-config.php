@@ -4,4 +4,4 @@
  * Extract of translatable strings from lib/config.php.
  */
 _x( 'WPSSO Schema Shortcode', 'plugin name', 'wpsso-schema-shortcode' );
-_x( 'Shortcode for advanced Schema markup of content sections.', 'plugin description', 'wpsso-schema-shortcode' );
+_x( 'Shortcode for customized Schema markup of content sections.', 'plugin description', 'wpsso-schema-shortcode' );
