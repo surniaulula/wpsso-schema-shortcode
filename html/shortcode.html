@@ -58,7 +58,7 @@
 &#91;/schema&#93;
 </pre>
 
-<p>By default the <code>&#91;schema&#93;</code> shortcode replaces an existing Schema property value -- if instead you want to <em>add</em> a new element to a Schema property array, prefix the 'prop' attribute value with a '+' sign. For example, the following shortcodes will create an 'offers' array with two price specifications (see below for additional notes on using nested shortcodes).</p>
+<p>By default the <code>&#91;schema&#93;</code> shortcode replaces an existing Schema property value &mdash; if instead you want to <em>add</em> a new element to a Schema property array, prefix the 'prop' attribute value with a '+' sign. For example, the following shortcodes will create an 'offers' array with two price specifications (see below for additional notes on using nested shortcodes).</p>
 
 <pre class="lang:xhtml decode:true">
 &#91;schema prop="+offers" type="https://schema.org/Offer"&#93;
@@ -135,7 +135,7 @@
 
 <p>You can add and maintain customer reviews directly in your content using the following example, but <strong>a much better (and more scalable) solution is to use a proper content rating / review plugin</strong> like the <a href="https://wordpress.org/plugins/wpsso-ratings-and-reviews/">WPSSO Ratings and Reviews</a> add-on, which adds customer ratings, reviews, replies and aggregate ratings markup automatically. The WPSSO Core Premium plugin also supports ratings and reviews from the <a href="https://wordpress.org/plugins/woocommerce/">WooCommerce</a> and <a href="https://wordpress.org/plugins/wp-postratings/">WP-PostRatings</a> plugins.</p>
 
-<p>Note that we are using Schema type IDs from WPSSO in this example -- using <code>type="review"</code> is the same as using <code>type="https://schema.org/Review"</code>. Also note the use of a leading "+" sign in the first <code>&#91;schema&#93;</code> shortcode 'prop' attribute -- this tells the plugin to add this property as an array, so several reviews can be included. The plugin handles nested shortcodes, but WordPress does not, so nested shortcodes must be numbered for WordPress (schema, schema_1, schema_2, etc.). Don't forget to terminate the shortcode enclosure -- it can be easy to forget that closing <code>&#91;/schema&#93;</code> tag. ;-)</p>
+<p>Note that we are using Schema type IDs from WPSSO in this example &mdash; using <code>type="review"</code> is the same as using <code>type="https://schema.org/Review"</code>. Also note the use of a leading "+" sign in the first <code>&#91;schema&#93;</code> shortcode 'prop' attribute &mdash; this tells the plugin to add this property as an array, so several reviews can be included. The plugin handles nested shortcodes, but WordPress does not, so nested shortcodes must be numbered for WordPress (schema, schema_1, schema_2, etc.). Don't forget to terminate the shortcode enclosure &mdash; it can be easy to forget that closing <code>&#91;/schema&#93;</code> tag. ;-)</p>
 
 <pre class="lang:xhtml decode:true">
 &lt;dl&gt;
