@@ -10,7 +10,7 @@
  * Author URI: https://wpsso.com/
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
- * Description: Shortcode for customized Schema markup of content sections.
+ * Description: Advanced Schema shortcode to define and customize additional properties and types for sections of the content.
  * Requires PHP: 7.0
  * Requires At Least: 5.0
  * Tested Up To: 5.8.2
