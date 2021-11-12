@@ -14,15 +14,15 @@ Tested Up To: 5.8.2
 WC Tested Up To: 5.9.0
 Stable Tag: 1.0.0
 
-Shortcode for customized Schema markup of content sections.
+Advanced Schema shortcode to define and customize additional properties and types for sections of the content.
 
 == Description ==
 
 <!-- about -->
 
-<p>The <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a> provides extensive support for hundreds of Schema types and can read data from dozens of supported third-party plugins and service APIs. The most popular Schema properties can be easily customized in the <em>Document SSO</em> metabox, and if required the <code>&#91;schema&#93;</code> shortcode can be used to define additional properties and types for sections of your content.</p>
+<p>The <a href="https://wordpress.org/plugins/wpsso/">WPSSO Core plugin</a> provides support for hundreds of Schema types, and can read data from dozens of supported third-party plugins and service APIs. The most popular Schema properties can be customized easily in the <em>Document SSO</em> metabox, and if required, the <code>&#91;schema&#93;</code> shortcode can be used to define additional properties and types for sections of the content.</p>
 
-<p>Please note that the <code>&#91;schema&#93;</code> shortcode is meant for <strong>advanced users only</strong> and is not required for WPSSO Core to create complete and accurate Schema JSON-LD markup for your content. You should avoid using the <code>&#91;schema&#93;</code> shortcode unless you're very familiar with <a href="https://schema.org">https://schema.org</a> markup and have very specific non-standard requirements. If you use the <code>&#91;schema&#93;</code> shortcode, make sure you always validate any change with the <a href="https://validator.schema.org/">Schema Markup Validator</a> and the <a href="https://search.google.com/test/rich-results">Google Rich Results Test</a> tool.</p>
+<p>Please note that the <code>&#91;schema&#93;</code> shortcode is meant for <strong>advanced users only</strong> and is not required for WPSSO Core to create complete and accurate Schema JSON-LD markup for the content. You should avoid using the <code>&#91;schema&#93;</code> shortcode unless you're very familiar with <a href="https://schema.org">https://schema.org</a> markup and have very specific, non-standard requirements. If you use the <code>&#91;schema&#93;</code> shortcode, make sure you always validate any change with the <a href="https://validator.schema.org/">Schema Markup Validator</a> and the <a href="https://search.google.com/test/rich-results">Google Rich Results Test</a> tool.</p>
 
 <!-- /about -->
 
