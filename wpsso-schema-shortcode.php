@@ -10,12 +10,12 @@
  * Author URI: https://wpsso.com/
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
- * Description: Advanced Schema shortcode to define and customize additional properties and types for sections of the content.
+ * Description: Schema shortcode to define and customize additional properties and types for sections of the content (WPSSO Core Premium Required).
  * Requires PHP: 7.0
  * Requires At Least: 5.0
  * Tested Up To: 5.8.2
  * WC Tested Up To: 5.9.0
- * Version: 1.1.0
+ * Version: 1.2.0-dev.2
  * 
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
  *
@@ -80,6 +80,30 @@ if ( ! class_exists( 'WpssoSsc' ) ) {
 			}
 
 			if ( $this->get_missing_requirements() ) {	// Returns false or an array of missing requirements.
+
+				return;	// Stop here.
+			}
+
+			if ( ! $this->p->check->pp() ) {
+
+				$info        = $this->cf[ 'plugin' ][ $this->ext ];
+				$addon_name  = $info[ 'name' ];
+				$req_name    = $info[ 'req' ][ 'wpsso' ][ 'name' ];
+				$notice_msg  = sprintf( __( 'The %1$s add-on requires the %2$s plugin.', 'wpsso-schema-shortcode' ), $addon_name, $req_name );
+
+				if ( $is_admin ) {
+				
+					$error_pre = sprintf( '%s error:', __METHOD__ );
+
+					$this->p->notice->err( $notice_msg );
+
+					SucomUtil::safe_error_log( $error_pre . ' ' . $notice_msg, $strip_html = true );
+				}
+
+				if ( $this->p->debug->enabled ) {
+
+					$this->p->debug->log( strtolower( $notice_msg ) );
+				}
 
 				return;	// Stop here.
 			}

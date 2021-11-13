@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WPSSO Schema Shortcode package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Schema Shortcode 1.1.0\n"
+"Project-Id-Version: WPSSO Schema Shortcode 1.2.0-dev.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-schema-"
 "shortcode\n"
 "POT-Creation-Date: 2021-MO-DA HO:MI+ZONE\n"
@@ -14,6 +14,7 @@ msgstr ""
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
 #: gettext/gettext-lib-abstracts-com.php:6 lib/abstracts/com/add-on.php:182
+#: wpsso-schema-shortcode.php:92
 msgid "The %1$s add-on requires the %2$s plugin."
 msgstr ""
 
@@ -31,8 +32,8 @@ msgstr ""
 #: gettext/gettext-lib-config.php:7
 msgctxt "plugin description"
 msgid ""
-"Advanced Schema shortcode to define and customize additional properties and "
-"types for sections of the content."
+"Schema shortcode to define and customize additional properties and types for "
+"sections of the content (WPSSO Core Premium Required)."
 msgstr ""
 
 #. translators: %1$s is the short plugin name, %2$s is the shortcode tag, %3$s is the type attribute value
@@ -64,8 +65,8 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Advanced Schema shortcode to define and customize additional properties and "
-"types for sections of the content."
+"Schema shortcode to define and customize additional properties and types for "
+"sections of the content (WPSSO Core Premium Required)."
 msgstr ""
 
 #. Author of the plugin/theme

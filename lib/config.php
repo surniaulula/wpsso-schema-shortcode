@@ -17,11 +17,11 @@ if ( ! class_exists( 'WpssoSscConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssossc' => array(			// Plugin acronym.
-					'version'     => '1.1.0',	// Plugin version.
+					'version'     => '1.2.0-dev.2',	// Plugin version.
 					'opt_version' => '1',		// Increment when changing default option values.
 					'short'       => 'WPSSO SSC',	// Short plugin name.
 					'name'        => 'WPSSO Schema Shortcode',
-					'desc'        => 'Advanced Schema shortcode to define and customize additional properties and types for sections of the content.',
+					'desc'        => 'Schema shortcode to define and customize additional properties and types for sections of the content (WPSSO Core Premium Required).',
 					'slug'        => 'wpsso-schema-shortcode',
 					'base'        => 'wpsso-schema-shortcode/wpsso-schema-shortcode.php',
 					'update_auth' => '',		// No premium version.
@@ -33,11 +33,11 @@ if ( ! class_exists( 'WpssoSscConfig' ) ) {
 					 */
 					'req' => array(
 						'wpsso' => array(
-							'name'          => 'WPSSO Core',
+							'name'          => 'WPSSO Core (Premium)',
 							'home'          => 'https://wordpress.org/plugins/wpsso/',
 							'plugin_class'  => 'Wpsso',
 							'version_const' => 'WPSSO_VERSION',
-							'min_version'   => '9.2.0',
+							'min_version'   => '9.8.0-dev.2',
 						),
 					),
 
