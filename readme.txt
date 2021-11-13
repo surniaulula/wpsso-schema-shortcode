@@ -12,9 +12,9 @@ Requires PHP: 7.0
 Requires At Least: 5.0
 Tested Up To: 5.8.2
 WC Tested Up To: 5.9.0
-Stable Tag: 1.0.0
+Stable Tag: 1.1.0
 
-Advanced Schema shortcode to define and customize additional properties and types for sections of the content.
+Schema shortcode to define and customize additional properties and types for sections of the content (WPSSO Core Premium Required).
 
 == Description ==
 
@@ -28,9 +28,9 @@ Advanced Schema shortcode to define and customize additional properties and type
 
 <p><a href="https://wpsso.com/docs/plugins/wpsso-schema-shortcode-documentation/notes-and-documentation-for-wpsso-ssc/schema-shortcode/">You can view the complete Schema shortcode guide here</a>.</p>
 
-<h3>WPSSO Core Required</h3>
+<h3>WPSSO Core Premium Required</h3>
 
-WPSSO Schema Shortcode (WPSSO SSC) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/).
+WPSSO Schema Shortcode (WPSSO SSC) is an add-on for the [WPSSO Core Premium plugin](https://wpsso.com/extend/plugins/wpsso/).
 
 == Installation ==
 
@@ -74,6 +74,21 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 1.2.0-dev.2 (2021/11/12)**
+
+* **New Features**
+	* None.
+* **Improvements**
+	* Improved plugin dependency checks.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* None.
+* **Requires At Least**
+	* PHP v7.0.
+	* WordPress v5.0.
+	* WPSSO Core v9.8.0-dev.2.
+
 **Version 1.1.0 (2021/10/18)**
 
 * **New Features**
@@ -105,6 +120,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WPSSO Core v9.0.0.
 
 == Upgrade Notice ==
+
+= 1.2.0-dev.2 =
+
+(2021/11/12) Improved plugin dependency checks.
 
 = 1.1.0 =
 
