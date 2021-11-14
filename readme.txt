@@ -79,11 +79,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **New Features**
 	* None.
 * **Improvements**
-	* Improved plugin dependency checks.
+	* Added dependency check for WPSSO Core (Premium).
 * **Bugfixes**
 	* None.
 * **Developer Notes**
-	* None.
+	* Refactored the `SucomAddOn->get_missing_requirements()` method.
 * **Requires At Least**
 	* PHP v7.0.
 	* WordPress v5.0.
@@ -123,7 +123,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 = 1.2.0-dev.3 =
 
-(2021/11/13) Improved plugin dependency checks.
+(2021/11/13) Added dependency check for WPSSO Core (Premium).
 
 = 1.1.0 =
 
