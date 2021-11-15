@@ -74,7 +74,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.2.0-dev.4 (2021/11/14)**
+**Version 1.2.0-b.1 (2021/11/15)**
 
 * **New Features**
 	* None.
@@ -87,7 +87,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v7.0.
 	* WordPress v5.0.
-	* WPSSO Core v9.8.0-dev.4.
+	* WPSSO Core v9.8.0-b.1.
 
 **Version 1.1.0 (2021/10/18)**
 
@@ -121,9 +121,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 == Upgrade Notice ==
 
-= 1.2.0-dev.4 =
+= 1.2.0-b.1 =
 
-(2021/11/14) Added dependency check for WPSSO Core (Premium).
+(2021/11/15) Added dependency check for WPSSO Core (Premium).
 
 = 1.1.0 =
 
