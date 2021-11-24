@@ -89,7 +89,7 @@ if ( ! class_exists( 'WpssoSsc' ) ) {
 			$notice_msg = $this->get_requires_plugin_notice( $info, $req_info );
 
 			if ( $is_admin ) {
-			
+
 				$this->p->notice->err( $notice_msg );
 
 				SucomUtil::safe_error_log( __METHOD__ . ' error: ' . $notice_msg, $strip_html = true );
