@@ -145,12 +145,25 @@ if ( ! class_exists( 'WpssoSscConfig' ) ) {
 			require_once WPSSOSSC_PLUGINDIR . 'lib/filters.php';
 			require_once WPSSOSSC_PLUGINDIR . 'lib/register.php';
 
-			add_filter( 'wpssossc_load_lib', array( 'WpssoSscConfig', 'load_lib' ), 10, 3 );
+			add_filter( 'wpssossc_load_lib', array( __CLASS__, 'load_lib' ), 10, 3 );
 		}
 
 		public static function load_lib( $success = false, $filespec = '', $classname = '' ) {
 
-			if ( false === $success && ! empty( $filespec ) ) {
+			if ( false !== $success ) {
+
+				return $success;
+			}
+
+			if ( ! empty( $classname ) ) {
+
+				if ( class_exists( $classname ) ) {
+
+					return $classname;
+				}
+			}
+
+			if ( ! empty( $filespec ) ) {
 
 				$file_path = WPSSOSSC_PLUGINDIR . 'lib/' . $filespec . '.php';
 
