@@ -30,7 +30,7 @@ Schema shortcode to define and customize additional properties and types for sec
 
 <h3>WPSSO Core Premium Required</h3>
 
-WPSSO Schema Shortcode (WPSSO SSC) is an add-on for the [WPSSO Core Premium plugin](https://wpsso.com/extend/plugins/wpsso/).
+WPSSO Schema Shortcode (WPSSO SSC) is an add-on for the [WPSSO Core Premium plugin](https://wpsso.com/).
 
 == Installation ==
 
