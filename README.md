@@ -29,7 +29,6 @@
 
 <p>WPSSO Schema Shortcode (WPSSO SSC) is an add-on for the <a href="https://wpsso.com/">WPSSO Core Premium plugin</a>.</p>
 
-
 <h2>Installation</h2>
 
 <h3 class="top">Install and Uninstall</h3>
@@ -38,7 +37,6 @@
 <li><a href="https://wpsso.com/docs/plugins/wpsso-schema-shortcode/installation/install-the-plugin/">Install the WPSSO Schema Shortcode add-on</a>.</li>
 <li><a href="https://wpsso.com/docs/plugins/wpsso-schema-shortcode/installation/uninstall-the-plugin/">Uninstall the WPSSO Schema Shortcode add-on</a>.</li>
 </ul>
-
 
 <h2>Frequently Asked Questions</h2>
 
@@ -53,5 +51,4 @@
 <ul>
 <li>None.</li>
 </ul>
-
 
