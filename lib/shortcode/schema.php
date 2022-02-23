@@ -294,7 +294,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 
 						if ( $this->p->debug->enabled ) {
 
-							$this->p->debug->log( '$type_url = ' . $type_url );
+							$this->p->debug->log( 'type_url = ' . $type_url );
 						}
 					}
 

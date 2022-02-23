@@ -71,7 +71,7 @@ if ( ! class_exists( 'WpssoSscFilters' ) ) {
 
 						if ( $this->p->debug->enabled ) {
 
-							$this->p->debug->log_arr( '$content_data', $content_data );
+							$this->p->debug->log_arr( 'content_data', $content_data );
 						}
 
 						if ( ! empty( $content_data ) ) {
