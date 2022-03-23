@@ -261,6 +261,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 						$value = substr( $value, 1 );
 
 					} else {
+
 						$prop_add = false; // Merge by default.
 					}
 
@@ -421,18 +422,18 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 					}
 				}
 
-				$mt_videos = $this->p->media->get_content_videos( 1, false, false, $prop_content );
+				$mt_videos = $this->p->media->get_content_videos( $num = 1, $mod = true, $prop_content );
 
 				if ( ! empty( $mt_videos ) ) {
 
-					WpssoSchema::add_videos_data_mt( $prop_ref[ 'video' ], $mt_videos, 'og:video' );
+					WpssoSchema::add_videos_data_mt( $prop_ref[ 'video' ], $mt_videos, $media_pre = 'og:video' );
 				}
 
 				$size_names = $this->p->util->get_image_size_names( 'schema' );	// Always returns an array.
 
 				foreach ( $size_names as $size_name ) {
 
-					$mt_images = $this->p->media->get_content_images( $num = 1, $size_name, $mod = false, $check_dupes = false, $prop_content );
+					$mt_images = $this->p->media->get_content_images( $num = 1, $size_name, $mod = true, $prop_content );
 
 					if ( ! empty( $mt_images ) ) {
 
