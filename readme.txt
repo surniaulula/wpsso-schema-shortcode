@@ -74,6 +74,21 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 1.3.2-dev.1 (2022/03/23)**
+
+* **New Features**
+	* None.
+* **Improvements**
+	* None.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* None.
+* **Requires At Least**
+	* PHP v7.2.
+	* WordPress v5.2.
+	* WPSSO Core v11.7.3-dev.1.
+
 **Version 1.3.1 (2022/03/07)**
 
 Maintenance release.
@@ -155,6 +170,10 @@ Maintenance release.
 	* WPSSO Core v9.0.0.
 
 == Upgrade Notice ==
+
+= 1.3.2-dev.1 =
+
+(2022/03/23) None.
 
 = 1.3.1 =
 
