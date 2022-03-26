@@ -17,7 +17,7 @@ if ( ! class_exists( 'WpssoSscConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssossc' => array(			// Plugin acronym.
-					'version'     => '1.3.2-rc.1',	// Plugin version.
+					'version'     => '1.3.2',	// Plugin version.
 					'opt_version' => '1',		// Increment when changing default option values.
 					'short'       => 'WPSSO SSC',	// Short plugin name.
 					'name'        => 'WPSSO Schema Shortcode',
