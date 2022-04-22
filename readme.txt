@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires PHP: 7.2
 Requires At Least: 5.2
 Tested Up To: 5.9.3
-WC Tested Up To: 6.3.1
+WC Tested Up To: 6.4.1
 Stable Tag: 1.3.2
 
 Schema shortcode to define and customize additional properties and types for sections of the content (WPSSO Core Premium Required).
