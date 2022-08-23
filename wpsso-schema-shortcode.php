@@ -13,7 +13,7 @@
  * Description: Schema shortcode to define and customize additional properties and types for sections of the content (WPSSO Core Premium Required).
  * Requires PHP: 7.2
  * Requires At Least: 5.2
- * Tested Up To: 6.0.1
+ * Tested Up To: 6.0.2
  * WC Tested Up To: 6.8.2
  * Version: 1.3.2
  * 
