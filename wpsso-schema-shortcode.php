@@ -11,10 +11,10 @@
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
  * Description: Schema shortcode to define and customize additional properties and types for sections of the content (WPSSO Core Premium Required).
+ * Requires Plugins: wpsso
  * Requires PHP: 7.2
  * Requires At Least: 5.2
  * Tested Up To: 6.1.0
- * WC Tested Up To: 7.0.0
  * Version: 1.3.2
  *
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
