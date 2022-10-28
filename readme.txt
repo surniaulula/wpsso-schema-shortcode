@@ -14,7 +14,7 @@ Requires At Least: 5.2
 Tested Up To: 6.1.0
 Stable Tag: 1.3.2
 
-Schema shortcode to define and customize additional properties and types for sections of the content (WPSSO Core Premium Required).
+Schema shortcode to define and customize additional properties and types for sections of the content.
 
 == Description ==
 
@@ -28,9 +28,9 @@ Schema shortcode to define and customize additional properties and types for sec
 
 <p><a href="https://wpsso.com/docs/plugins/wpsso-schema-shortcode-documentation/notes-and-documentation-for-wpsso-ssc/schema-shortcode/">You can view the complete Schema shortcode guide here</a>.</p>
 
-<h3>WPSSO Core Premium Required</h3>
+<h3>WPSSO Core Required</h3>
 
-WPSSO Schema Shortcode (WPSSO SSC) is an add-on for the [WPSSO Core Premium plugin](https://wpsso.com/).
+WPSSO Schema Shortcode (WPSSO SSC) is an add-on for the [WPSSO Core plugin](https://wordpress.org/plugins/wpsso/).
 
 == Installation ==
 
