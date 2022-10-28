@@ -43,7 +43,7 @@ if ( ! class_exists( 'WpssoSsc' ) ) {
 
 		public $filters;	// WpssoSscFilters class object.
 
-		protected $p;		// Wpsso class object.
+		protected $p;	// Wpsso class object.
 
 		private static $instance = null;	// WpssoSsc class object.
 
@@ -67,41 +67,7 @@ if ( ! class_exists( 'WpssoSsc' ) ) {
 			load_plugin_textdomain( 'wpsso-schema-shortcode', false, 'wpsso-schema-shortcode/languages/' );
 		}
 
-		public function init_objects_std() {
-
-			$this->p =& Wpsso::get_instance();
-
-			if ( $this->p->debug->enabled ) {
-
-				$this->p->debug->mark();
-			}
-
-			$doing_ajax = defined( 'DOING_AJAX' ) ? DOING_AJAX : false;
-
-			if ( $doing_ajax ) {
-
-				return;
-			}
-
-			$is_admin   = is_admin();
-			$info       = $this->cf[ 'plugin' ][ $this->ext ];
-			$req_info   = $info[ 'req' ][ 'wpsso' ];
-			$notice_msg = $this->get_requires_plugin_notice( $info, $req_info );
-
-			if ( $is_admin ) {
-
-				$this->p->notice->err( $notice_msg );
-
-				SucomUtil::safe_error_log( __METHOD__ . ' error: ' . $notice_msg, $strip_html = true );
-			}
-
-			if ( $this->p->debug->enabled ) {
-
-				$this->p->debug->log( strtolower( $notice_msg ) );
-			}
-		}
-
-		public function init_objects_pro() {
+		public function init_objects() {
 
 			$this->p =& Wpsso::get_instance();
 
