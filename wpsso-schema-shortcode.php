@@ -10,7 +10,7 @@
  * Author URI: https://wpsso.com/
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
- * Description: Schema shortcode to define and customize additional properties and types for sections of the content (WPSSO Core Premium Required).
+ * Description: Schema shortcode to define and customize additional properties and types for sections of the content.
  * Requires Plugins: wpsso
  * Requires PHP: 7.2
  * Requires At Least: 5.2

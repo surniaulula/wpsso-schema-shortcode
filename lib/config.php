@@ -21,7 +21,7 @@ if ( ! class_exists( 'WpssoSscConfig' ) ) {
 					'opt_version' => '1',		// Increment when changing default option values.
 					'short'       => 'WPSSO SSC',	// Short plugin name.
 					'name'        => 'WPSSO Schema Shortcode',
-					'desc'        => 'Schema shortcode to define and customize additional properties and types for sections of the content (WPSSO Core Premium Required).',
+					'desc'        => 'Schema shortcode to define and customize additional properties and types for sections of the content.',
 					'slug'        => 'wpsso-schema-shortcode',
 					'base'        => 'wpsso-schema-shortcode/wpsso-schema-shortcode.php',
 					'update_auth' => '',		// No premium version.

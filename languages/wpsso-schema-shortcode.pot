@@ -32,7 +32,7 @@ msgstr ""
 msgctxt "plugin description"
 msgid ""
 "Schema shortcode to define and customize additional properties and types for "
-"sections of the content (WPSSO Core Premium Required)."
+"sections of the content."
 msgstr ""
 
 #: gettext/gettext-lib-config.php:8
@@ -70,7 +70,7 @@ msgstr ""
 #. Description of the plugin/theme
 msgid ""
 "Schema shortcode to define and customize additional properties and types for "
-"sections of the content (WPSSO Core Premium Required)."
+"sections of the content."
 msgstr ""
 
 #. Author of the plugin/theme
