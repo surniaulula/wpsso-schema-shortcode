@@ -74,7 +74,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.4.0-rc.1 (2023/01/18)**
+**Version 1.4.0-rc.2 (2023/01/19)**
 
 * **New Features**
 	* None.
@@ -87,7 +87,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v7.2.
 	* WordPress v5.2.
-	* WPSSO Core v14.5.0-rc.1.
+	* WPSSO Core v14.5.0-rc.2.
 
 **Version 1.3.2 (2022/03/26)**
 
@@ -186,9 +186,9 @@ Maintenance release.
 
 == Upgrade Notice ==
 
-= 1.4.0-rc.1 =
+= 1.4.0-rc.2 =
 
-(2023/01/18) Updated the `SucomAbstractAddOn` common library class.
+(2023/01/19) Updated the `SucomAbstractAddOn` common library class.
 
 = 1.3.2 =
 
