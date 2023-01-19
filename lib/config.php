@@ -1,5 +1,5 @@
 <?php
-/**
+/*
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
  * Copyright 2014-2022 Jean-Sebastien Morisset (https://wpsso.com/)
@@ -17,7 +17,7 @@ if ( ! class_exists( 'WpssoSscConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'wpssossc' => array(			// Plugin acronym.
-					'version'     => '1.4.0-rc.1',	// Plugin version.
+					'version'     => '1.4.0-rc.2',	// Plugin version.
 					'opt_version' => '1',		// Increment when changing default option values.
 					'short'       => 'WPSSO SSC',	// Short plugin name.
 					'name'        => 'WPSSO Schema Shortcode',
@@ -28,7 +28,7 @@ if ( ! class_exists( 'WpssoSscConfig' ) ) {
 					'text_domain' => 'wpsso-schema-shortcode',
 					'domain_path' => '/languages',
 
-					/**
+					/*
 					 * Required plugin and its version.
 					 */
 					'req' => array(
@@ -37,16 +37,16 @@ if ( ! class_exists( 'WpssoSscConfig' ) ) {
 							'home'          => 'https://wordpress.org/plugins/wpsso/',
 							'plugin_class'  => 'Wpsso',
 							'version_const' => 'WPSSO_VERSION',
-							'min_version'   => '14.5.0-rc.1',
+							'min_version'   => '14.5.0-rc.2',
 						),
 					),
 
-					/**
+					/*
 					 * URLs or relative paths to plugin banners and icons.
 					 */
 					'assets' => array(
 
-						/**
+						/*
 						 * Icon image array keys are '1x' and '2x'.
 						 */
 						'icons' => array(
@@ -55,7 +55,7 @@ if ( ! class_exists( 'WpssoSscConfig' ) ) {
 						),
 					),
 
-					/**
+					/*
 					 * Library files loaded and instantiated by WPSSO.
 					 */
 					'lib' => array(
@@ -83,7 +83,7 @@ if ( ! class_exists( 'WpssoSscConfig' ) ) {
 
 			$info =& self::$cf[ 'plugin' ][ 'wpssossc' ];
 
-			/**
+			/*
 			 * Define fixed constants.
 			 */
 			define( 'WPSSOSSC_FILEPATH', $plugin_file );
@@ -93,7 +93,7 @@ if ( ! class_exists( 'WpssoSscConfig' ) ) {
 			define( 'WPSSOSSC_URLPATH', trailingslashit( plugins_url( '', $plugin_file ) ) );
 			define( 'WPSSOSSC_VERSION', $info[ 'version' ] );
 
-			/**
+			/*
 			 * Define variable constants.
 			 */
 			self::set_variable_constants();
@@ -106,7 +106,7 @@ if ( ! class_exists( 'WpssoSscConfig' ) ) {
 				$var_const = (array) self::get_variable_constants();
 			}
 
-			/**
+			/*
 			 * Define the variable constants, if not already defined.
 			 */
 			foreach ( $var_const as $name => $value ) {
@@ -126,7 +126,7 @@ if ( ! class_exists( 'WpssoSscConfig' ) ) {
 			$var_const[ 'WPSSOSSC_SCHEMA_SHORTCODE_SEPARATOR' ] = '_';
 			$var_const[ 'WPSSOSSC_SCHEMA_SHORTCODE_DEPTH' ]     = 3;
 
-			/**
+			/*
 			 * Maybe override the default constant value with a pre-defined constant value.
 			 */
 			foreach ( $var_const as $name => $value ) {
