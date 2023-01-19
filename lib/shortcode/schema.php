@@ -1,5 +1,5 @@
 <?php
-/**
+/*
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
  * Copyright 2021-2023 Jean-Sebastien Morisset (https://wpsso.com/)
@@ -41,7 +41,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 
 			foreach ( range( 0, $this->shortcode_depth ) as $max_depth ) {
 
-				/**
+				/*
 				 * Create shortcode tag names:
 				 *
 				 *	schema
@@ -136,7 +136,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 				$atts = array();
 			}
 
-			/**
+			/*
 			 * When WordPress calls do_shortcode(), $this->doing_json_data is false. Do not parse / set the json
 			 * data array - simply add an HTML comment with the shortcode attributes as a visual placeholder in the
 			 * content text.
@@ -168,7 +168,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 				$this->p->debug->log( 'doing_json_data is true: boolean will be returned' );
 			}
 
-			/**
+			/*
 			 * When a schema type id is selected, a prop attribute value must be specified as well.
 			 */
 			if ( ! empty( $atts[ 'type' ] ) && empty( $atts[ 'prop' ] ) && empty( $atts[ 'prop_name' ] ) ) {
@@ -178,7 +178,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 					$this->p->debug->log( 'exiting early: ' . $tag . ' shortcode with type is missing a prop attribute value' );
 				}
 
-				/**
+				/*
 				 * Add notice only if the admin notices have not already been shown.
 				 */
 				if ( $this->p->notice->is_admin_pre_notices() ) {
@@ -195,7 +195,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 				return false;
 			}
 
-			/**
+			/*
 			 * When there's content (for a description), the schema type id must be specified - otherwise it would
 			 * apply to the main schema, where there is already a description.
 			 */
@@ -206,7 +206,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 					$this->p->debug->log( 'exiting early: ' . $tag . ' shortcode with content is missing a type attribute value' );
 				}
 
-				/**
+				/*
 				 * Add notice only if the admin notices have not already been shown.
 				 */
 				if ( $this->p->notice->is_admin_pre_notices() ) {
@@ -230,7 +230,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 
 			foreach ( $atts as $key => $value ) {
 
-				/**
+				/*
 				 * Ignore @id, @context, @type, etc. shortcode attribute keys.
 				 *
 				 * WordPress sets key names with illegal characters in the value string, so test for both.
@@ -244,7 +244,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 
 					continue;
 
-				/**
+				/*
 				 * Save the property name to add in the new json array later.
 				 */
 				} elseif ( 'prop' === $key || 'prop_name' === $key ) {
@@ -271,7 +271,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 
 					$temp_data = $value;
 
-				/**
+				/*
 				 * Set the @context and @type values in the new json array.
 				 */
 				} elseif ( 'type' === $key || 'type_url' === $key ) {
@@ -306,7 +306,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 							$this->p->debug->log( 'exiting early: ' . $tag . ' shortcode type "' . $value . '" is not a recognized value' );
 						}
 
-						/**
+						/*
 						 * Add notice only if the admin notices have not already been shown.
 						 */
 						if ( $this->p->notice->is_admin_pre_notices() ) {
@@ -325,7 +325,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 						$temp_data = WpssoSchema::get_schema_type_context( $type_url, $temp_data );
 					}
 
-				/**
+				/*
 				 * All other attribute keys are assumed to be schema property names.
 				 */
 				} elseif ( is_array( $temp_data ) ) { // Just in case.
@@ -339,7 +339,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 				}
 			}
 
-			/**
+			/*
 			 * Merge the new json data properties into the current json data array.
 			 */
 			if ( empty( $prop_name ) ) {
@@ -469,7 +469,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 					$this->doing_json_data = true;
 				}
 
-				/**
+				/*
 				 * If we already have a position / depth for additions to the json_data array, save it so we can
 				 * return here after calling do_shortcode().
 				 */
@@ -478,14 +478,14 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 					$this->prev_data_ref[ $this->content_depth ] =& $this->json_data_ref;
 				}
 
-				/**
+				/*
 				 * Set the current position / depth in the json_data array for new additions.
 				 */
 				$this->json_data_ref =& $json_data;
 
 				do_shortcode( $content );
 
-				/**
+				/*
 				 * If we have a previous position / depth saved, restore that position so later shortcode additions
 				 * can be added from this position / depth.
 				 */

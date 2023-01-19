@@ -1,5 +1,5 @@
 <?php
-/**
+/*
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
  * Copyright 2021-2023 Jean-Sebastien Morisset (https://wpsso.com/)
@@ -17,7 +17,7 @@ if ( ! class_exists( 'WpssoSscFilters' ) ) {
 		private $p;		// Wpsso class object.
 		private $a;		// WpssoSsc class object.
 
-		/**
+		/*
 		 * Instantiated by WpssoSsc->init_objects().
 		 */
 		public function __construct( &$plugin, &$addon ) {
@@ -57,12 +57,12 @@ if ( ! class_exists( 'WpssoSscFilters' ) ) {
 						$this->p->debug->log( 'post_content for post ID ' . $mod[ 'id' ] . ' is empty' );
 					}
 
-				/**
+				/*
 				 * Check if the schema shortcode class is loaded.
 				 */
 				} elseif ( isset( $this->p->sc[ 'schema' ] ) && is_object( $this->p->sc[ 'schema' ] ) ) {
 
-					/**
+					/*
 					 * Check if the shortcode is registered, and that the content has a schema shortcode.
 					 */
 					if ( has_shortcode( $content, WPSSOSSC_SCHEMA_SHORTCODE_NAME ) ) {
