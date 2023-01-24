@@ -74,12 +74,12 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.4.1-dev.3 (2023/01/24)**
+**Version 1.4.1-dev.4 (2023/01/24)**
 
 * **New Features**
 	* None.
 * **Improvements**
-	* None.
+	* Updated the minimum WordPress version from v5.2 to v5.4.
 * **Bugfixes**
 	* None.
 * **Developer Notes**
@@ -87,7 +87,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v7.2.
 	* WordPress v5.4.
-	* WPSSO Core v14.6.1-dev.3.
+	* WPSSO Core v14.6.1-dev.4.
 
 **Version 1.4.0 (2023/01/20)**
 
@@ -201,7 +201,7 @@ Maintenance release.
 
 == Upgrade Notice ==
 
-= 1.4.1-dev.3 =
+= 1.4.1-dev.4 =
 
 (2023/01/24) Updated the `WpssoAbstractAddOn` library class.
 
