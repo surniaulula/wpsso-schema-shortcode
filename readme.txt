@@ -79,7 +79,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **New Features**
 	* None.
 * **Improvements**
-	* Updated the minimum WordPress version from v5.2 to v5.4.
+	* Updated the minimum WordPress version from v5.2 to v5.5.
 * **Bugfixes**
 	* None.
 * **Developer Notes**
@@ -203,7 +203,7 @@ Maintenance release.
 
 = 1.4.1 =
 
-(2023/01/26) Updated the minimum WordPress version from v5.2 to v5.4.
+(2023/01/26) Updated the minimum WordPress version from v5.2 to v5.5.
 
 = 1.4.0 =
 
