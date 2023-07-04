@@ -9,7 +9,7 @@ Assets URI: https://surniaulula.github.io/wpsso-schema-shortcode/assets/
 Tags: schema, shortcode
 Contributors: jsmoriss
 Requires Plugins: wpsso
-Requires PHP: 7.2.5
+Requires PHP: 7.2.34
 Requires At Least: 5.5
 Tested Up To: 6.2.2
 Stable Tag: 1.4.1
