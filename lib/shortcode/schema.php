@@ -126,7 +126,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 				$this->p->debug->mark();
 			}
 
-			if ( ! is_array( $atts ) ) { // Define an empty array if no shortcode attributes.
+			if ( ! is_array( $atts ) ) {	// Define an empty array if no shortcode attributes.
 
 				if ( $this->p->debug->enabled ) {
 
@@ -225,7 +225,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 
 			$type_url  = '';
 			$prop_name = null;
-			$prop_add  = false; // Merge by default.
+			$prop_add  = false;	// Merge by default.
 			$temp_data = array();
 
 			foreach ( $atts as $key => $value ) {
@@ -262,7 +262,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 
 					} else {
 
-						$prop_add = false; // Merge by default.
+						$prop_add = false;	// Merge by default.
 					}
 
 					$prop_name = $value;
@@ -319,7 +319,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 							$this->p->notice->err( sprintf( $error_msg, $info[ 'short' ], $tag, $value ) );
 						}
 
-						return false; // Stop here.
+						return false;	// Stop here.
 
 					} else {
 						$temp_data = WpssoSchema::get_schema_type_context( $type_url, $temp_data );
@@ -328,7 +328,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 				/*
 				 * All other attribute keys are assumed to be schema property names.
 				 */
-				} elseif ( is_array( $temp_data ) ) { // Just in case.
+				} elseif ( is_array( $temp_data ) ) {	// Just in case.
 
 					if ( $this->p->debug->enabled ) {
 
@@ -375,7 +375,7 @@ if ( ! class_exists( 'WpssoSscShortcodeSchema' ) ) {
 
 				$this->json_data_ref[ $prop_name ][] = $temp_data;
 
-				end( $this->json_data_ref[ $prop_name ] ); // Just in case.
+				end( $this->json_data_ref[ $prop_name ] );	// Just in case.
 
 				$last_key = key( $this->json_data_ref[ $prop_name ] );
 
