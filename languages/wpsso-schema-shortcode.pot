@@ -40,7 +40,8 @@ msgctxt "plugin name"
 msgid "WPSSO Core (Premium)"
 msgstr ""
 
-#. translators: %1$s is the short plugin name, %2$s is the shortcode tag, %3$s is the type attribute value
+#. translators: %1$s is the short plugin name, %2$s is the shortcode tag, %3$s
+#. is the type attribute value
 #: lib/shortcode/schema.php:189
 msgid ""
 "%1$s %2$s shortcode with a type value of \"%3$s\" is missing a required "
@@ -54,7 +55,8 @@ msgid ""
 "value."
 msgstr ""
 
-#. translators: %1$s is the short plugin name, %2$s is the shortcode tag, %3$s is the type attribute value
+#. translators: %1$s is the short plugin name, %2$s is the shortcode tag, %3$s
+#. is the type attribute value
 #: lib/shortcode/schema.php:317
 msgid "%1$s %2$s shortcode type attribute \"%3$s\" is not a recognized value."
 msgstr ""
