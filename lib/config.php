@@ -173,7 +173,7 @@ if ( ! class_exists( 'WpssoSscConfig' ) ) {
 
 					if ( empty( $classname ) ) {
 
-						$classname = SucomUtil::sanitize_classname( 'wpssossc' . $filespec, $allow_underscore = false );
+						return SucomUtil::sanitize_classname( 'wpssossc' . $filespec, $allow_underscore = false );
 					}
 
 					return $classname;
