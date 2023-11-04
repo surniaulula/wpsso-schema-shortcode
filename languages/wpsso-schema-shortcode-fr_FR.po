@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WPSSO Schema Shortcode 1.4.0\n"
+"Project-Id-Version: WPSSO Schema Shortcode 1.5.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsso-schema-shortcode\n"
 "POT-Creation-Date: 2023-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-05-26 04:14-0700\n"
+"PO-Revision-Date: 2023-11-03 21:31-0700\n"
 "Last-Translator: JS Morisset <jsm@surniaulula.com>\n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.1\n"
 
 #: gettext/gettext-lib-abstract-com.php:5 lib/abstract/com/add-on.php:209
 msgid "The %1$s add-on requires the %2$s plugin."
@@ -36,7 +36,8 @@ msgctxt "plugin name"
 msgid "WPSSO Core (Premium)"
 msgstr "WPSSO Core (Premium)"
 
-#. translators: %1$s is the short plugin name, %2$s is the shortcode tag, %3$s is the type attribute value
+#. translators: %1$s is the short plugin name, %2$s is the shortcode tag, %3$s
+#. is the type attribute value
 #: lib/shortcode/schema.php:189
 msgid "%1$s %2$s shortcode with a type value of \"%3$s\" is missing a required 'prop' attribute value."
 msgstr "Le code court %2$s de %1$s avec \"%3$s\" comme attribut type doit avoir une valeur pour l'attribut 'prop' aussi."
@@ -46,7 +47,8 @@ msgstr "Le code court %2$s de %1$s avec \"%3$s\" comme attribut type doit avoir 
 msgid "%1$s %2$s shortcode with a content is missing a required 'type' attribute value."
 msgstr "Le code court %2$s de %1$s avec un texte de description doit avoir une valeur pour l'attribut 'type'."
 
-#. translators: %1$s is the short plugin name, %2$s is the shortcode tag, %3$s is the type attribute value
+#. translators: %1$s is the short plugin name, %2$s is the shortcode tag, %3$s
+#. is the type attribute value
 #: lib/shortcode/schema.php:317
 msgid "%1$s %2$s shortcode type attribute \"%3$s\" is not a recognized value."
 msgstr "Le code court %2$s de %1$s avec \"%3$s\" pour l'attribut type n'est pas une valeur reconnue."
