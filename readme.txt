@@ -74,7 +74,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 1.5.0-dev.11 (2021/11/05)**
+**Version 2.0.0-dev.13 (2021/11/05)**
 
 * **New Features**
 	* None.
@@ -83,11 +83,11 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Bugfixes**
 	* None.
 * **Developer Notes**
-	* Refactored the settings page load process.
+	* Refactored the settings page and metabox load process for WPSSO Core v17.0.0.
 * **Requires At Least**
 	* PHP v7.2.34.
 	* WordPress v5.5.
-	* WPSSO Core v16.7.0-dev.11.
+	* WPSSO Core v17.0.0-dev.13.
 
 **Version 1.4.1 (2023/01/26)**
 
@@ -104,151 +104,13 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WordPress v5.5.
 	* WPSSO Core v14.7.0.
 
-**Version 1.4.0 (2023/01/20)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Updated the `SucomAbstractAddOn` common library class.
-* **Requires At Least**
-	* PHP v7.2.
-	* WordPress v5.2.
-	* WPSSO Core v14.5.0.
-
-**Version 1.3.2 (2022/03/26)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Removed `$check_dupes` from all methods arguments.
-* **Requires At Least**
-	* PHP v7.2.
-	* WordPress v5.2.
-	* WPSSO Core v11.8.0.
-
-**Version 1.3.1 (2022/03/07)**
-
-Maintenance release.
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* None.
-* **Requires At Least**
-	* PHP v7.2.
-	* WordPress v5.2.
-	* WPSSO Core v11.5.0.
-
-**Version 1.3.0 (2022/01/19)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Renamed the lib/abstracts/ folder to lib/abstract/.
-	* Renamed the `SucomAddOn` class to `SucomAbstractAddOn`.
-	* Renamed the `WpssoAddOn` class to `WpssoAbstractAddOn`.
-	* Renamed the `WpssoWpMeta` class to `WpssoAbstractWpMeta`.
-* **Requires At Least**
-	* PHP v7.2.
-	* WordPress v5.2.
-	* WPSSO Core v9.14.0.
-
-**Version 1.2.0 (2021/11/16)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* Added dependency check for WPSSO Core (Premium).
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Refactored the `SucomAddOn->get_missing_requirements()` method.
-* **Requires At Least**
-	* PHP v7.2.
-	* WordPress v5.2.
-	* WPSSO Core v9.8.0.
-
-**Version 1.1.0 (2021/10/18)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Removed cache clearing on activation / deactivation.
-* **Requires At Least**
-	* PHP v7.0.
-	* WordPress v5.0.
-	* WPSSO Core v9.0.0.
-
-**Version 1.0.0 (2021/09/24)**
-
-* **New Features**
-	* Initial release.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* None.
-* **Requires At Least**
-	* PHP v7.0.
-	* WordPress v5.0.
-	* WPSSO Core v9.0.0.
-
 == Upgrade Notice ==
 
-= 1.5.0-dev.11 =
+= 2.0.0-dev.13 =
 
-(2021/11/05) Refactored the settings page load process.
+(2021/11/05) Refactored the settings page and metabox load process for WPSSO Core v17.0.0.
 
 = 1.4.1 =
 
 (2023/01/26) Updated the minimum WordPress version from v5.2 to v5.5.
-
-= 1.4.0 =
-
-(2023/01/20) Updated the `SucomAbstractAddOn` common library class.
-
-= 1.3.2 =
-
-(2022/03/26) Removed `$check_dupes` from all methods arguments.
-
-= 1.3.1 =
-
-(2022/03/07) Maintenance release.
-
-= 1.3.0 =
-
-(2022/01/19) Renamed the lib/abstracts/ folder and its classes.
-
-= 1.2.0 =
-
-(2021/11/16) Added dependency check for WPSSO Core (Premium).
-
-= 1.1.0 =
-
-(2021/10/18) Removed cache clearing on activation / deactivation.
-
-= 1.0.0 =
-
-(2021/09/24) Initial release.
 
