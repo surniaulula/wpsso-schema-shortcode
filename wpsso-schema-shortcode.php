@@ -12,8 +12,8 @@
  * License URI: https://www.gnu.org/licenses/gpl.txt
  * Description: Schema shortcode to define and customize additional properties and types for sections of the content.
  * Requires Plugins: wpsso
- * Requires PHP: 7.2.34
- * Requires At Least: 5.8
+ * Requires PHP: 7.4.33
+ * Requires At Least: 5.9
  * Tested Up To: 6.6.2
  * Version: 2.1.0
  *
