@@ -13,7 +13,7 @@
  * Description: Schema shortcode to define and customize additional properties and types for sections of the content.
  * Requires Plugins: wpsso
  * Requires PHP: 7.4.33
- * Requires At Least: 5.9
+ * Requires At Least: 6.0
  * Tested Up To: 6.9
  * Version: 2.1.0
  *
