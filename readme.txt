@@ -11,7 +11,7 @@ Contributors: jsmoriss
 Requires Plugins: wpsso
 Requires PHP: 7.4.33
 Requires At Least: 6.0
-Tested Up To: 6.9.4
+Tested Up To: 7.0
 Stable Tag: 2.1.0
 
 Schema shortcode to define and customize additional properties and types for sections of the content.
